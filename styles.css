@@ -8,9 +8,12 @@
 	display: flex;
 	gap:10px;
 
-	align-items:  center;
+	align-items:  top;
+
+	flex-wrap:wrap;
 }
 .flex-item{
 	padding: 20px;
 	background-color: red;
+	align-self: flex-start;
 }
