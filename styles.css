@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.flex-box{
+	background-color: orange;
+	width: 200px;
+	height:200px;
+
+	display: flex;
+	gap:10px;
+
+	align-items:  center;
+}
+.flex-item{
+	padding: 20px;
+	background-color: red;
+}
