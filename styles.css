@@ -1,19 +1,26 @@
 
 /* Your CSS Code here. */
-.flex-box{
-	background-color: orange;
-	width: 200px;
-	height:200px;
-
-	display: flex;
-	gap:10px;
-
-	align-items:  top;
-
-	flex-wrap:wrap;
+.holder{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+		flex-wrap: wrap;
 }
-.flex-item{
-	padding: 20px;
+.item{
+	width: 100px;
+	height: 100px;
 	background-color: red;
-	align-self: flex-start;
+		font-size:40px
 }
+.item-1{
+	background-color: green;
+}
+
+.item-3{
+	background-color: blue;
+}
+
+
+
+
+
